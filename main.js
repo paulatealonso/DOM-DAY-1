@@ -66,7 +66,7 @@ button5.onclick = () => {
 }
 
 buttonSecret.onclick = () => {
-    if (p === "black") {
+    if (p.style.color === "black") {
         p.style.color = "red"
         buttonSecret.innerHTML = "PACA PIRAÑA"
         p.innerHTML = "O ME MONTO O NO ME MONTO"
